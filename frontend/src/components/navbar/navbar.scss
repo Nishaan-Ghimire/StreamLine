@@ -1,0 +1,40 @@
+.navbar{
+    border-bottom: 1px solid black;
+   .navbarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+
+    .logo{
+       
+        span{
+            font-size: 25px;
+            font-weight: bold;
+
+        }
+    }
+
+    .menuItems{
+        ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin: 20px 40px;
+        li{
+            padding: 10px 40px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        li:hover{
+            background-color: rgb(240, 235, 235);
+            border: 2px solid black;
+        }
+    
+    }
+        
+    }
+   }
+}

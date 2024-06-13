@@ -1,0 +1,89 @@
+.datatable{
+    height: 600px;
+    padding: 20px;
+    .dataTableTitle{
+        width: 100%;
+        font-size: 22px;
+        color: grey;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .addnew{
+            font-size: 15px;
+            text-decoration: none;
+            color: green;
+            border: 1px solid green;
+            border-radius: 12px;
+            padding: 5px 12px;
+            cursor: pointer;
+        }
+    }
+    .cellWithImg {
+        display: flex;
+        align-items: center;
+        
+        .cellImg{
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+    }
+
+    .cellWithStatus {
+        padding: 5px;
+        border-radius: 5px;
+        max-width: 50px;
+   
+        &.active{
+            color: green;
+            background-color: rgb(111, 214, 111);
+        }
+        &.pending{
+            color: goldenrod;
+            background-color: rgb(247, 228, 181);
+        }
+        &.passive{
+            color: crimson;
+            background-color: rgb(236, 145, 163);
+        }
+   
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px solid rgb(38, 38, 180);
+            cursor: pointer;
+
+            &:hover{
+                color: white; 
+                background-color: rgb(34, 34, 207);
+            }
+        }
+        .deleteButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px solid rgb(219, 67, 98);
+            cursor: pointer;
+            &:hover{
+                color: white; 
+                background-color: rgb(231, 66, 99);
+            }
+        }
+
+
+    }
+    
+}

@@ -1,0 +1,27 @@
+.otp{
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .image{
+    img{
+      width: 500px;
+    }
+  }
+
+
+    .otpForm{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+
+        input{
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 12px;
+        }
+     
+       }
+    }
